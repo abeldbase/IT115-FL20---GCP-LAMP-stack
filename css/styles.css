@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('the3m.jpeg'); /* Replace 'background_image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,10 +22,15 @@ header nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+}
+nav a.active {
+    color: red; /* Change this to the desired color */
 }
 .container {
     flex: 1;
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
