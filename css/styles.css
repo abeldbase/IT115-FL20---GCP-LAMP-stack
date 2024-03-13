@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('the3m.jpeg'); /* Replace 'background_image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #617268;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.container {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(126, 233, 227, 0.555);
+}
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+p {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.team-member {
+    margin-bottom: 20px;
+}
+.team-member a {
+    color: #007bff;
+    text-decoration: none;
+}
