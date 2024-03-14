@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 header {
-    background-color:yellow;
+    background-color: #726f61;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -26,7 +26,7 @@ header nav a {
     font-weight: bold; /* Make font bold */
 }
 nav a.active {
-    color: red; /* Change this to the desired color */
+    color: yellow ; /* Change this to the desired color */
 }
 .container {
     flex: 1;
