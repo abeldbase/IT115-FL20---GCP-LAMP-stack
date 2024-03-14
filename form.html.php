@@ -106,6 +106,7 @@
             <a href="#">Diagram</a>
         </nav>
     </header>
+     <iframe width="100%" height="60" src="https://rss.app/embed/v1/ticker/tW4RpOAIHaYqHBp8" frameborder="0"></iframe>
     <div class="container">
         <h2>About Us</h2>
         <p>Welcome to our website! We are a dedicated team passionate about creating innovative solutions.</p>
